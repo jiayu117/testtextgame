@@ -1,0 +1,57 @@
+[
+  {
+    "forgeid": 3001,
+    "name": "普通锻造",
+    "common": 80,
+    "rare": 15,
+    "veryRare": 5,
+    "extremelyRare": 0,
+    "legendary": 0,
+    "epic": 0,
+    "goldCost": 80
+  },
+  {
+    "forgeid": 3002,
+    "name": "稀有锻造",
+    "common": 70,
+    "rare": 20,
+    "veryRare": 10,
+    "extremelyRare": 0,
+    "legendary": 0,
+    "epic": 0,
+    "goldCost": 150
+  },
+  {
+    "forgeid": 3003,
+    "name": "罕见锻造",
+    "common": 60,
+    "rare": 25,
+    "veryRare": 10,
+    "extremelyRare": 3,
+    "legendary": 2,
+    "epic": 0,
+    "goldCost": 300
+  },
+  {
+    "forgeid": 3004,
+    "name": "珍稀锻造",
+    "common": 40,
+    "rare": 30,
+    "veryRare": 25,
+    "extremelyRare": 4,
+    "legendary": 1,
+    "epic": 0,
+    "goldCost": 800
+  },
+  {
+    "forgeid": 3005,
+    "name": "传奇锻造",
+    "common": 20,
+    "rare": 35,
+    "veryRare": 30,
+    "extremelyRare": 10,
+    "legendary": 5,
+    "epic": 0,
+    "goldCost": 2000
+  }
+]

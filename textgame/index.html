@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文字放置RPG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <!-- 角色创建遮罩层 -->
+        <div id="create-hero-mask">
+            <div class="create-hero-box">
+                <h2>创建角色</h2>
+                <label>角色名称：<input type="text" id="hero-name-input" maxlength="10" placeholder="请输入角色名称（支持中文，10字以内）"></label>
+                <div id="roll-result">
+                    <!-- roll结果显示在这里 -->
+                </div>
+                <button id="roll-btn">Reroll 主属性与成长</button>
+                <button id="start-btn" disabled>开始游戏</button>
+            </div>
+        </div>
+        <!-- 左侧面板 -->
+        <div class="panel left-panel">
+            <div class="section" id="player-stats">
+                <h2>角色属性</h2>
+                <!-- 属性内容稍后添加 -->
+            </div>
+            <div class="section" id="player-equipment">
+                <h2>穿戴装备</h2>
+                <!-- 装备内容稍后添加 -->
+            </div>
+            <div class="section" id="player-inventory">
+                <h2>背包</h2>
+                <!-- 背包内容稍后添加 -->
+            </div>
+            <div class="section" id="player-skills">
+                <h2>已学技能</h2>
+                <!-- 技能内容稍后添加 -->
+            </div>
+        </div>
+
+        <!-- 中间面板 -->
+        <div class="panel middle-panel">
+            <div class="tab-buttons">
+                <button class="tab-button" onclick="showTab('stages')">关卡选择</button>
+                <button class="tab-button" onclick="showTab('blacksmith')">铁匠铺</button>
+                <button class="tab-button" onclick="showTab('skill-shop')">技能商店</button>
+            </div>
+            <div class="tab-content" id="stages" style="display:none;">
+                 <h2>关卡选择</h2>
+                <!-- 关卡选择内容稍后添加 -->
+                 <button id="start-battle-btn">开始战斗</button>
+                 <label><input type="checkbox" id="auto-battle-checkbox"> 自动战斗</label>
+            </div>
+            <div class="tab-content" id="blacksmith">
+                <h2>铁匠铺</h2>
+                <!-- 铁匠铺内容稍后添加 -->
+            </div>
+            <div class="tab-content" id="skill-shop" style="display:none;">
+                <h2>技能商店</h2>
+                <!-- 技能商店内容稍后添加 -->
+            </div>
+            <div id="test-btns-middle" style="margin-top:24px;text-align:center;"></div>
+        </div>
+
+        <!-- 右侧面板 -->
+        <div class="panel right-panel">
+            <h2>战斗信息</h2>
+            <div id="combat-log">
+                <!-- 战斗日志内容会动态添加 -->
+            </div>
+            <h2>养成信息</h2>
+            <div id="growth-log">
+                <!-- 养成信息内容会动态添加 -->
+            </div>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html> 

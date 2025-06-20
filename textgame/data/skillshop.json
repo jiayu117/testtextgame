@@ -1,0 +1,57 @@
+[
+  {
+    "forgeid": 4001,
+    "name": "普通刷新",
+    "common": 0.8,
+    "rare": 0.15,
+    "veryRare": 0.05,
+    "extremelyRare": 0,
+    "legendary": 0,
+    "epic": 0,
+    "goldCost": 100
+  },
+  {
+    "forgeid": 4002,
+    "name": "稀有刷新",
+    "common": 0.7,
+    "rare": 0.2,
+    "veryRare": 0.1,
+    "extremelyRare": 0,
+    "legendary": 0,
+    "epic": 0,
+    "goldCost": 200
+  },
+  {
+    "forgeid": 4003,
+    "name": "罕见刷新",
+    "common": 0.6,
+    "rare": 0.25,
+    "veryRare": 0.1,
+    "extremelyRare": 0.03,
+    "legendary": 0.02,
+    "epic": 0,
+    "goldCost": 500
+  },
+  {
+    "forgeid": 4004,
+    "name": "珍稀刷新",
+    "common": 0.4,
+    "rare": 0.3,
+    "veryRare": 0.2,
+    "extremelyRare": 0.05,
+    "legendary": 0.05,
+    "epic": 0,
+    "goldCost": 1000
+  },
+  {
+    "forgeid": 4005,
+    "name": "传奇刷新",
+    "common": 0.3,
+    "rare": 0.3,
+    "veryRare": 0.25,
+    "extremelyRare": 0.07,
+    "legendary": 0.08,
+    "epic": 0,
+    "goldCost": 500
+  }
+]

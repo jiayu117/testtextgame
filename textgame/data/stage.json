@@ -1,0 +1,52 @@
+[
+  {
+    "stageid": 1001,
+    "name": "关卡1-1",
+    "monsterid": 2001
+  },
+  {
+    "stageid": 1002,
+    "name": "关卡1-2",
+    "monsterid": 2002
+  },
+  {
+    "stageid": 1003,
+    "name": "关卡1-3",
+    "monsterid": 2003
+  },
+  {
+    "stageid": 1004,
+    "name": "关卡1-4",
+    "monsterid": 2004
+  },
+  {
+    "stageid": 1005,
+    "name": "关卡1-5",
+    "monsterid": 2005
+  },
+  {
+    "stageid": 1006,
+    "name": "关卡1-6",
+    "monsterid": 2006
+  },
+  {
+    "stageid": 1007,
+    "name": "关卡1-7",
+    "monsterid": 2007
+  },
+  {
+    "stageid": 1008,
+    "name": "关卡1-8",
+    "monsterid": 2008
+  },
+  {
+    "stageid": 1009,
+    "name": "关卡1-9",
+    "monsterid": 2009
+  },
+  {
+    "stageid": 1010,
+    "name": "关卡1-10",
+    "monsterid": 2010
+  }
+]
